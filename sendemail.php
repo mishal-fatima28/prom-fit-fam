@@ -1,29 +1,17 @@
-<?php
+<?php 
 
-// Define some constants
-define( "RECIPIENT_NAME", "Mugisha Mark" );
-define( "RECIPIENT_EMAIL", "mishalfatima28@gmail.com" );
+	$to = "mishalfatima28@gmail.com";
+	$subject = "test mail";
+	$message = "hello";
+	$from = "mishalfatima28@gmail.com";
+	$headers = "From : $from";
+	$headers =  'MIME-Version: 1.0' . "\r\n"; 
+	$headers .= 'From: Your name <mishalfatima28@gmail.com>' . "\r\n";
+	$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; 
 
-// Read the form values
-$success = false;
-$userName = isset( $_POST['username'] ) ? preg_replace( "/[^\s\S\.\-\_\@a-zA-Z0-9]/", "", $_POST['username'] ) : "";
-$senderEmail = isset( $_POST['email'] ) ? preg_replace( "/[^\.\-\_\@a-zA-Z0-9]/", "", $_POST['email'] ) : "";
-$message = isset( $_POST['message'] ) ? preg_replace( "/(From:|To:|BCC:|CC:|Phone:|Content-Type:)/", "", $_POST['message'] ) : "";
+	mail($to, $subject, $message, $headers);
+	echo "mail sent";
 
-// If all values exist, send the email
-if ( $userName && $senderEmail && $message) {
-  $recipient = RECIPIENT_NAME . " <" . RECIPIENT_EMAIL . ">";
-  $headers = "From: " . $userName . "";
-  $msgBody = " Name: ". $userName .  " Email: ". $senderEmail . " Message: " . $message . "";
-  $success = mail( $recipient, $headers, $msgBody );
 
-  //Set Location After Successsfull Submission
-  header('Location: contact.html?message=Successfull');
-}
 
-else{
-	//Set Location After Unsuccesssfull Submission
-  	header('Location: contact.html?message=Failed');	
-}
-
-?>
+ ?>
