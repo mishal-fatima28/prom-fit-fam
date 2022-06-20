@@ -1961,6 +1961,8 @@ body.visible-menu-bar .fullscreen-menu{
 }
 
 .banner-section .slide{
+
+	height: 1000px;
 	position:relative;
 	padding-top:300px;
 	padding-bottom:300px;
@@ -8651,3 +8653,4 @@ body.visible-menu-bar .fullscreen-menu{
 	padding-top:80px;
 	padding-bottom:160px;
 }
+

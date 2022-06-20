@@ -1200,6 +1200,13 @@
 }
 
 @media only screen and (max-width: 479px) {
+
+	.banner-section .slide{
+
+	height: 500px;
+	
+}
+
 	
 	h2{
 		font-size:20px;
