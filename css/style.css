@@ -5986,7 +5986,7 @@ body.visible-menu-bar .fullscreen-menu{
 
 .trainer-detail .inner-box .title-box{
 	position:relative;
-	margin-bottom:30px;
+	margin-bottom:20px;
 }
 
 .trainer-detail .inner-box .title-box h3{
@@ -6001,8 +6001,7 @@ body.visible-menu-bar .fullscreen-menu{
 	margin-top:10px;
 	color:#4c4c4c;
 	font-size:20px;
-	margin-top:20px;
-	padding-bottom:25px;
+	padding-bottom:8px;
 	border-bottom:1px solid #3d3d3d;
 	font-family: 'Poppins', sans-serif;
 }
@@ -6015,7 +6014,7 @@ body.visible-menu-bar .fullscreen-menu{
 	position: relative;
     color: #ffffff;
     opacity: 0.5;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 300;
     line-height: 1.8em;
     margin-bottom: 20px;
