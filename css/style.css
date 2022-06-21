@@ -2025,6 +2025,7 @@ body.visible-menu-bar .fullscreen-menu{
 .banner-section .content-boxed h1 span{
 	color:#ffffff;
 	display:block;
+	letter-spacing: 4px;
 }
 
 .banner-section .active .content-boxed h1{
