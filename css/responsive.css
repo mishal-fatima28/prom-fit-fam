@@ -1203,7 +1203,14 @@
 
 	.banner-section .slide{
 
-	height: 700px;
+	height: 700px; 
+	}
+
+	.main-footer .news-widget .post h5 {
+
+		font-size: 15px;
+
+	}
 	
 }
 
