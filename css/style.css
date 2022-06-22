@@ -5995,6 +5995,8 @@ body.visible-menu-bar .fullscreen-menu{
 	color:#ffffff;
 	line-height:1.1em;
 	font-family: 'MonumentExtended-Ultrabold';
+	font-size: 30px;
+	letter-spacing: 2px;
 }
 
 .trainer-detail .inner-box .title-box .category{
@@ -6018,7 +6020,7 @@ body.visible-menu-bar .fullscreen-menu{
     font-size: 15px;
     font-weight: 300;
     line-height: 1.8em;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -6026,6 +6028,7 @@ body.visible-menu-bar .fullscreen-menu{
 	position:relative;
 	width:100%;
 	display:block;
+	opacity: 0.4;
 }
 
 .trainer-detail .inner-box .blockquote{
@@ -8653,4 +8656,6 @@ body.visible-menu-bar .fullscreen-menu{
 	padding-top:80px;
 	padding-bottom:160px;
 }
+
+
 
