@@ -27,7 +27,7 @@ if (isset($_POST['submit'])) {
 		$mail->Port = 587;
 
 		$mail->setFrom('promfitfam@gmail.com');
-		$mail->addAddress('mugishamark.oo1rubaramira@gmail.com');
+		$mail->addAddress('mugishamark.001rubaramira@gmail.com');
 
 		$mail->isHTML(true);
 		$mail->Subject = 'Prom Fit Fam Consultation';
