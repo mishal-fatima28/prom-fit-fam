@@ -944,7 +944,7 @@ img{
 	font-size:16px;
 	margin-right:24px;
 	font-weight:400;
-	color:rgba(255,255,255,0.20);
+	color:rgba(255,255,255,0.90);
 	-webkit-transition:all 0.5s ease;
 	-moz-transition:all 0.5s ease;
 	-ms-transition:all 0.5s ease;
@@ -953,7 +953,7 @@ img{
 }
 
 .main-header .header-social-box a:hover{
-	color:rgba(255,255,255,0.90);
+	color:rgba(255,255,255,0.50);
 }
 
 .main-header .outer-box{

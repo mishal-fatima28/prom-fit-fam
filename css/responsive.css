@@ -1201,6 +1201,13 @@
 
 @media only screen and (max-width: 479px) {
 
+	.main-footer .logo-widget .info-list li.social-links a{
+
+		margin-right: 10px;
+		margin-left: 10px;
+
+	}
+
 	.banner-section .slide{
 	height: 700px; 
 	}
