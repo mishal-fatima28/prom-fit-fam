@@ -1201,6 +1201,20 @@
 
 @media only screen and (max-width: 479px) {
 
+	.test .carousel {
+	padding: 0 50px;
+
+    }
+
+	.test .carousel .testimonial {
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 300;
+	font-style: italic;
+	line-height: 1.6em;
+
+	}
+
 	.main-footer .logo-widget .info-list li.social-links a{
 
 		margin-right: 10px;
