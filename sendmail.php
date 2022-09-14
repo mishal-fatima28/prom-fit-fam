@@ -21,12 +21,12 @@ if (isset($_POST['submit'])) {
 		$mail->isSMTP();
 		$mail->Host = 'smtp.gmail.com';
 		$mail->SMTPAuth = true;
-		$mail->Username = 'promfitfam@gmail.com';
-		$mail->Password = 'ftgjrhlfjvuxxdtz';
+		$mail->Username = 'promfitfamgym@gmail.com';
+		$mail->Password = 'qlsjaluzfwrpyvbt';
 		$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 		$mail->Port = 587;
 
-		$mail->setFrom('promfitfam@gmail.com');
+		$mail->setFrom('promfitfamgym@gmail.com');
 		$mail->addAddress('mugishamark.001rubaramira@gmail.com');
 
 		$mail->isHTML(true);
